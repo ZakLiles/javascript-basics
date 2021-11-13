@@ -69,7 +69,7 @@ let dog = {
   name: 'Spot',
   color: 'Black and White',
   age: 4,
-  goodboy: true
+  goodBoy: true
 }
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
