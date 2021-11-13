@@ -2,13 +2,13 @@
 
 //Create a variable called myName that is a string data type
 
-let myNane ="Zak";
+let myName ="Zak";
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-let myAge ="33";
+let myAge =33;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -110,6 +110,7 @@ function add(num1, num2){
 //storing the result in the variable mathSum.
 
 //Code Here
+mathSum = add(3,4);
 
 //////////////////PROBLEM 12////////////////////
 
@@ -121,7 +122,9 @@ function add(num1, num2){
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
+// function faveColorFinder(color){
 
+// }
 //////////////////PROBLEM 13////////////////////
 
 let duck = "cute";
