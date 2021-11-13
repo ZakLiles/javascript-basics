@@ -45,7 +45,7 @@ function greeting(name) {
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-function newGreeting(name) {
+let newGreeting = function(name) {
   return `Hello, ${name}`;
 }
 
