@@ -2,31 +2,31 @@
 
 //Create a variable called myName that is a string data type
 
-//Code here
+let myNane ="Zak";
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-//Code here
+let myAge ="33";
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-//Code here
+let lovesCode = true; 
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-//Code here
+let greatestFear;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
+let devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,7 +35,9 @@
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting(name) {
+  return `Hello, ${name}`;
+}
 
 //////////////////PROBLEM 7////////////////////
 
@@ -43,6 +45,9 @@
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
+function newGreeting(name) {
+  return `Hello, ${name}`;
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -50,6 +55,7 @@
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+let groceries = ['apples', 'milk', 'eggs', 'bread'];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -59,11 +65,17 @@
 //and goodBoy (a boolean).
 
 //Code Here
-
+let dog = {
+  name: 'Spot',
+  color: 'Black and White',
+  age: 4,
+  goodboy: true
+}
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+let devMountainClassPet = dog['name'];
 
 //////////////////PROBLEM 10////////////////////
 
