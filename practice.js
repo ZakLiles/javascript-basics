@@ -93,7 +93,7 @@ function nameCheck(name){
   } else if (name === 'Bryan'){
     return 'Hey Bryan!';
   } else {
-    return `Cool name, #{name}`;
+    return `Cool name, ${name}`;
   }
 }
 //////////////////PROBLEM 11////////////////////
